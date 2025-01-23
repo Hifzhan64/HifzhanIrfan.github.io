@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1
+    {color:aqua;}
+
+h6
+    {
+        font-size:30pt;
+        font-family: impact;
+        color:lime;
+    }
+body
+    {
+        background-image: url(../img/yoko1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+p
+    {
+        color:fuchsia;
+    }
+
+p.red
+    {
+        color: rgb(0, 17, 255);
+    }
+
+.imgwidth300px
+    {
+        width: 300px;
+    }
+
+.placeholder
+    {
+        width: 300px;
+        height: 500px;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+nav
+    {
+        width: 100%;
+        height: 100px;
+        background-color:cadetblue;
+    }
+
+ul li
+    {
+        list-style: none;
+        display: inline-block;
+        line-height: 100px;
+        float:left;
+    }
+
+ul li a
+    {
+        text-decoration: none;
+        font-size: 14pt;
+        font-family: arial;
+        color:black;
+        display: block;
+        padding: 0 20;
+    }
+
+ul li a:hover
+    {
+        color:red;
+        text-decoration: underline;
+    }
+
+table
+    {
+        border: 1px solid white;
+    }
+
+td
+    {
+        padding: 5px;
+    }
+
+.top-menu
+    {
+        width: 100%;
+        height: 40px;
+        background-color: darkkhaki;
+    }
+
+.slideshow
+    {
+        width: 100%;
+        height: 600px;
+        background-color: bisque;
+        float: left;
+    }
+
+.box1
+    {
+        width: 25%;
+        height: 400px;
+        background-color: cornflowerblue;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+.box2
+    {
+        width: 25%;
+        height: 400px;
+        background-color: darkkhaki;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+.box3
+    {
+        width: 25%;
+        height: 400px;
+        background-color:forestgreen;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+.box4
+    {
+        width: 25%;
+        height: 400px;
+        background-color:honeydew;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
